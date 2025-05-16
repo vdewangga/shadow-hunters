@@ -12,3 +12,14 @@ Contributions and feedback are welcome. Before opening pull requests or issues, 
 
 ## Support Us
 Shadow Hunters is supported by [donations](https://www.paypal.com/donate?token=2Hzl9uC9E-VN9jwnoWTIoCqpdFGo0VWiLLOHVRWUaiQrTlGD6ljZKGGVsAaldlt6xGJTN0zZxmmD6BEY) from its users.
+
+
+## Build
+```
+$ docker build -t shadow-hunters .
+```
+
+## Run
+```
+$ docker run -p 5000:5000 -d shadow-hunters
+```
